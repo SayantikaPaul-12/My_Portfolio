@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Set your background image here */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the image */
+    color: #ffffff; /* Change text color to white for better contrast */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black for header */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 2px solid #ffcc00; /* Gold border for the header */
+}
+
+section {
+    padding: 1rem 2rem;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for sections */
+    margin: 1rem auto;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+}
+
+h2 {
+    border-bottom: 2px solid #ffcc00; /* Gold border for section titles */
+    padding-bottom: 0.5rem;
+}
+
+ul {
+    list-style-type: disc; /* Bullet points for unordered lists */
+    padding-left: 20px; /* Indentation for list items */
+}
+
+ul li {
+    padding: 0.5rem 0; /* Space between list items */
+}
+
+footer {
+    text-align
